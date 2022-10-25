@@ -39,6 +39,7 @@
 			$asignatura->addChild('tipo', $_POST['tipo']);
 			// Llamamos a la función para ver si existen profesores a guardar
 			$profesores = guardaProfesores();
+			// Profesores Titulares
 			if(!empty($profesores[0])) {
 				for ($i=0;$i<count($profesores[0]);$i++) {
 					$profesoresT = $asignatura->addChild('profesoresT');
@@ -47,6 +48,7 @@
 					$profesoresT->addChild('apellidos', $profesores[0][$i][2]);
 				}
 			}
+			// Profesores de Prácticas
 			if(!empty($profesores[1])) {
 				for ($i=0;$i<count($profesores[1]);$i++) {
 					$profesoresP = $asignatura->addChild('profesoresP');
@@ -55,6 +57,7 @@
 					$profesoresP->addChild('apellidos', $profesores[1][$i][2]);
 				}				
 			}
+			// Guardamos el archivo
 			$sxe->asXML('asignaturas.xml');
 	}
 
@@ -67,6 +70,7 @@
 		$profesoresP = array();
 		if(isset($_POST['titDNI'])) {
 			for ($i=0;$i<count($_POST['titDNI']);$i++) {
+				// añadimos al array todos los profesores titulares
 				array_push($profesoresT, array($_POST['titDNI'][$i], $_POST['titNombre'][$i], $_POST['titApellidos'][$i]));
 			}
 		}
