@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <!DOCTYPE centro PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+ "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+]> -->
+<centro>
+    <asignaturas>
+        <asignatura>
+            <codigo>101</codigo>
+            <nombre>Biología</nombre>
+            <duracion>100</duracion>
+            <tipo>optativa</tipo>
+            <profesores>
+                <profesores_titulares>
+                    <profesor>
+                        <dni>444444444P</dni>
+                        <nombre>Paquito</nombre>
+                        <apellidos>Marquez Echevarría</apellidos>
+                    </profesor>
+                    <profesor>
+                        <dni>22222222B</dni>
+                        <nombre>Fernando</nombre>
+                        <apellidos>García Serrano</apellidos>
+                    </profesor>
+                </profesores_titulares>
+                <profesores_practicas>
+                    <profesor>
+                        <dni>444444444P</dni>
+                        <nombre>Paquito</nombre>
+                        <apellidos>Marquez Echevarría</apellidos>
+                    </profesor>
+                    <profesor>
+                        <dni>22222222B</dni>
+                        <nombre>Fernando</nombre>
+                        <apellidos>García Serrano</apellidos>
+                    </profesor>
+                </profesores_practicas>
+            </profesores>
+        </asignatura>
+
+
+        <asignatura>
+            <codigo>102</codigo>
+            <nombre>Matematicas</nombre>
+            <duracion>200</duracion>
+            <tipo>obligatoria</tipo>
+            <profesores>
+                <profesores_titulares>
+                    <profesor>
+                        <dni>444444444P</dni>
+                        <nombre>Paquito</nombre>
+                        <apellidos>Marquez Echevarría</apellidos>
+                    </profesor>
+                    <profesor>
+                        <dni>22222222B</dni>
+                        <nombre>Fernando</nombre>
+                        <apellidos>García Serrano</apellidos>
+                    </profesor>
+                </profesores_titulares>
+                <profesores_practicas>
+                    <profesor>
+                        <dni>444444444P</dni>
+                        <nombre>Paquito</nombre>
+                        <apellidos>Marquez Echevarría</apellidos>
+                    </profesor>
+                    <profesor>
+                        <dni>22222222B</dni>
+                        <nombre>Fernando</nombre>
+                        <apellidos>García Serrano</apellidos>
+                    </profesor>
+                </profesores_practicas>
+            </profesores>
+        </asignatura>
+
+
+        <asignatura>
+            <codigo>103</codigo>
+            <nombre>Ingles</nombre>
+            <duracion>150</duracion>
+            <tipo>troncal</tipo>
+            <profesores>
+                <profesores_titulares>
+                    <profesor>
+                        <dni>444444444P</dni>
+                        <nombre>Paquito</nombre>
+                        <apellidos>Marquez Echevarría</apellidos>
+                    </profesor>
+                    <profesor>
+                        <dni>22222222B</dni>
+                        <nombre>Fernando</nombre>
+                        <apellidos>García Serrano</apellidos>
+                    </profesor>
+                </profesores_titulares>
+                <profesores_practicas>
+                    <profesor>
+                        <dni>444444444P</dni>
+                        <nombre>Paquito</nombre>
+                        <apellidos>Marquez Echevarría</apellidos>
+                    </profesor>
+                    <profesor>
+                        <dni>22222222B</dni>
+                        <nombre>Fernando</nombre>
+                        <apellidos>García Serrano</apellidos>
+                    </profesor>
+                </profesores_practicas>
+            </profesores>
+        </asignatura>
+    </asignaturas>
+</centro>
