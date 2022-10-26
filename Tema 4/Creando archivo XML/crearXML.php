@@ -19,7 +19,6 @@
 			Se encarga de abrir y escribir el archivo XML
 			*/
 			if(file_exists("./asignaturas.xml")) {
-				// Si existe leemos el xml y lo guardamos en un SimpleXMLElement
 				$string = file_get_contents('./asignaturas.xml');
 				$sxe = new SimpleXMLElement($string);
 
