@@ -31,6 +31,7 @@
         public function setPrecio($precio) {
             $this->precio = $precio;
         }
+
     }
     // instancia 10 objetos de la clase producto
     $productos = array();
