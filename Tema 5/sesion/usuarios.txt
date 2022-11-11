@@ -1,0 +1,4 @@
+marquez;1234;juan antonio marquez;1
+pedro;9999;pedro;3
+pedrito;0000;Pedro Pipa;9
+lucas;123456789;Lucas;10
