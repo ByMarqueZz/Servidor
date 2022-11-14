@@ -16,6 +16,8 @@
         <input type="submit" value="Iniciar sesión">
     </form>
     <a href="./registrate.php">Registrate</a>
+    <!-- utiliza el metodo logout -->
+    <a href="./logout.php">Cerrar sesión</a>
     <?php
         // Inicio de sesión
         session_start();
@@ -35,6 +37,7 @@
                 echo 'Usuario o contraseña incorrectos';
             }
         }
+        var_dump($_SESSION);
     ?>
 </body>
 </html>

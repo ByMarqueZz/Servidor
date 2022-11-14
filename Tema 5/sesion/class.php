@@ -67,6 +67,19 @@
             fclose($file);
             return $isRegister;
         }
+        // cerrar sesión
+        public function logout() {
+            $this->us = '';
+            $this->pw = '';
+            $this->nombre = '';
+            $this->perfil = '';
+            $this->estado = false;
+            session_destroy();
+        }
+        // esta logueado
+        public function isLogin() {
+            return $this->estado;
+        }
     }
     
 ?>
