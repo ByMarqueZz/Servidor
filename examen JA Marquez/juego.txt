@@ -1,0 +1,5 @@
+[test];¿Cuanto es 2 + 2?;1;dos;4;No se puede calcular;2
+[vf];La programación en PHP es fácil;V
+[vf];La programación en PHP es apasionante;V
+[vf];El profesor de DWES del IES Francisco Ayala es muy atractivo;F
+[test];El polimorfismo es...;El rabillo que todas las boinas poseen en la parte superior de la misma. Por ejemplo, a los vascos les gustan las boinas con el polimorfismo bien largo.;La capacidad que tiene un objeto de comportarse de distintas formas. Por ejemplo, el objeto se ha instanciado llamando al constructor de una clase derivada gracias al polimorfismo.;El saliente de la pata de la cama con el que nos golpeamos por la noche cuando nos levantamos para ir al servicio. Por ejemplo, esta noche me he levantado a orinar y me he dado un golpe con el polimorfismo en el dedo chico del pie.;Un tic que hace que estés guiñando el ojo derecho constantemente a la vez que chocas el hombro izquierdo con la mejilla. Por ejemplo, tu polimorfismo me está poniendo nervioso.;1
